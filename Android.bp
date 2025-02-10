@@ -5149,6 +5149,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libmmosal_vendor",
                 "libutils",
+                "libOmxCore",
                 "libwfdcommonutils_proprietary",
                 "libwfdmmservice_proprietary",
                 "libbinder",
@@ -5161,7 +5162,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -5182,6 +5182,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libbinder",
                 "libcutils",
+                "libOmxCore",
                 "libvppclient",
                 "vendor.qti.hardware.vpp@1.1",
                 "vendor.qti.hardware.capabilityconfigstore@1.0",
@@ -5197,7 +5198,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
